@@ -4,16 +4,24 @@ export default function Navbar()
 {
 
     return (
-        <nav>
+
+        <div className="navbar">
             <Link to={"/"}>
-            Erquicks
+           <h1> Erquicks </h1>
             </Link>
 
-            
+            <input type={"type"}/>
+
+<nav >  
             
             <Link to={"market"}>
-                market
+                Produits
+                </Link>
+                <Link to={"market"}>
+                partenaires
             </Link>
         </nav>
+        </div>
+
     )
 }
